@@ -1,0 +1,47 @@
+/target
+/classes
+/checkouts
+*.jar
+*.class
+.cpcache
+/.lein-*
+.nrepl-history
+.nrepl-port
+pom.xml
+pom.xml.asc
+/.dir-locals.el
+
+# MacOs
+.DS_Store
+
+# Duct
+/profiles.clj
+/logs
+/app/dev/res/local.edn
+/app/dev/src/local.clj
+
+# JetBrains
+.idea/
+*.iml
+
+/.rebel_readline_history
+
+# Brew
+Brewfile.lock.json
+
+# ENV
+.env
+
+# REBL
+.rebl/prefs.edn
+
+# clerk
+.clerk/cache
+/public/build
+
+# clj-kondo
+**/.clj-kondo/.cache
+
+# project specific
+app/clerk/res/reports-greg
+app/clerk/res/reports-kasia
